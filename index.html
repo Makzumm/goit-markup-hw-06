@@ -511,17 +511,23 @@
             <label for="comment" class="modal-form-label">Коментарий</label>
             <textarea
               name="comment"
-              rows="6"
+              rows="5"
               placeholder="Введите текст"
               id="comment"
               class="modal-form-textarea"
             ></textarea>
           </div>
           <div class="modal-form-checkbox">
-            <label for="policy-agreement"></label>
-            <input id="policy-agreement" type="checkbox" name="policy" />
-            <span>Соглашаюсь с рассылкой и принимаю</span>&nbsp;
-            <a class="policy-link" href="#">Условия договора</a>
+            <label class="checkbox-policy-agreement">
+              <input class="checkbox-policy" type="checkbox" name="policy" />
+              <span class="checkbox-icon">
+                <svg class="checkbox-icon-svg" width="16px" height="15px">
+                  <use href="./images/sprite.svg#icon-check"></use>
+                </svg>
+              </span>
+              Соглашаюсь с рассылкой и принимаю&nbsp;
+              <a class="policy-agreement-link" href="#"> Условия договора</a>
+            </label>
           </div>
           <button type="submit" class="modal-form-button">Отправить</button>
         </form>
