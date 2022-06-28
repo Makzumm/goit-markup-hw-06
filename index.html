@@ -460,7 +460,7 @@
               <input
                 class="footer-form-input"
                 id="email"
-                type="email  "
+                type="email"
                 name="mail"
                 placeholder="E-mail"
               />
@@ -489,14 +489,23 @@
           <div class="form-field">
             <label for="name" class="modal-form-label">Имя</label>
             <input class="name-form" type="text" name="name" id="name" />
+            <svg class="modal-svg-person" width="18px" height="18px">
+              <use href="./images/sprite.svg#icon-person-modal"></use>
+            </svg>
           </div>
           <div class="form-field">
             <label for="tel" class="modal-form-label">Телефон</label>
             <input class="tel-form" type="tel" name="telephone" id="tel" />
+            <svg class="modal-svg-tel" width="18px" height="18px">
+              <use href="./images/sprite.svg#icon-phone-modal"></use>
+            </svg>
           </div>
           <div class="form-field">
             <label for="mail" class="modal-form-label">Почта</label>
             <input class="email-form" type="email" name="email" id="mail" />
+            <svg class="modal-svg-email" width="18px" height="18px">
+              <use href="./images/sprite.svg#icon-email-modal"></use>
+            </svg>
           </div>
           <div class="form-field">
             <label for="comment" class="modal-form-label">Коментарий</label>
@@ -511,7 +520,8 @@
           <div class="modal-form-checkbox">
             <label for="policy-agreement"></label>
             <input id="policy-agreement" type="checkbox" name="policy" />
-            Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a>
+            <span>Соглашаюсь с рассылкой и принимаю</span>&nbsp;
+            <a class="policy-link" href="#">Условия договора</a>
           </div>
           <button type="submit" class="modal-form-button">Отправить</button>
         </form>
