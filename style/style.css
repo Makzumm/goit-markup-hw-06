@@ -883,25 +883,6 @@ footer{
     fill: currentColor;
 }
 
-.backdrop-close-button:hover,
-.backdrop-close-button:focus{
-    border-color: var(--light-blue-txt-color);
-    fill: var(--dark-blue-txt-color);
-}
-
-.backdrop-close-button:active{
-    border-color: var(--dark-blue-txt-color);
-}
-
-.backdrop-modal-close-icon:hover,
-.backdrop-modal-close-icon:focus{
-    fill: var(--light-blue-txt-color);
-}
-
-.backdrop-modal-close-icon:active{
-    fill: var(--dark-blue-txt-color);
-} 
-
 /* FOOTER FORM */
 
 .footer-form-container{
